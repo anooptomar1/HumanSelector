@@ -14,7 +14,8 @@
 		524D27F5202E871C00A2B1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524D27F3202E871C00A2B1A4 /* LaunchScreen.storyboard */; };
 		524D2800202E871C00A2B1A4 /* HumanSelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D27FF202E871C00A2B1A4 /* HumanSelectorTests.swift */; };
 		524D280B202E871C00A2B1A4 /* HumanSelectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D280A202E871C00A2B1A4 /* HumanSelectorUITests.swift */; };
-		524D2819202E87D200A2B1A4 /* peopleornot.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 524D2818202E87D200A2B1A4 /* peopleornot.mlmodel */; };
+		5293BE732039565000E27E90 /* peopleornot.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5293BE722039564F00E27E90 /* peopleornot.mlmodel */; };
+		5293BE7520395C5100E27E90 /* peopleornot2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5293BE7420395C4F00E27E90 /* peopleornot2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		524D2806202E871C00A2B1A4 /* HumanSelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanSelectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524D280A202E871C00A2B1A4 /* HumanSelectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanSelectorUITests.swift; sourceTree = "<group>"; };
 		524D280C202E871C00A2B1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		524D2818202E87D200A2B1A4 /* peopleornot.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = peopleornot.mlmodel; sourceTree = "<group>"; };
+		5293BE722039564F00E27E90 /* peopleornot.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = peopleornot.mlmodel; sourceTree = "<group>"; };
+		5293BE7420395C4F00E27E90 /* peopleornot2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = peopleornot2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,8 @@
 		524D27E9202E871C00A2B1A4 /* HumanSelector */ = {
 			isa = PBXGroup;
 			children = (
-				524D2818202E87D200A2B1A4 /* peopleornot.mlmodel */,
+				5293BE7420395C4F00E27E90 /* peopleornot2.mlmodel */,
+				5293BE722039564F00E27E90 /* peopleornot.mlmodel */,
 				524D27EA202E871C00A2B1A4 /* AppDelegate.swift */,
 				524D27EC202E871C00A2B1A4 /* ViewController.swift */,
 				524D27EE202E871C00A2B1A4 /* Main.storyboard */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524D2819202E87D200A2B1A4 /* peopleornot.mlmodel in Sources */,
+				5293BE732039565000E27E90 /* peopleornot.mlmodel in Sources */,
+				5293BE7520395C5100E27E90 /* peopleornot2.mlmodel in Sources */,
 				524D27ED202E871C00A2B1A4 /* ViewController.swift in Sources */,
 				524D27EB202E871C00A2B1A4 /* AppDelegate.swift in Sources */,
 			);

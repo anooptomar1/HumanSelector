@@ -40,7 +40,7 @@
       language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/tarokimura/Desktop/PySelector"
+      customWorkingDirectory = "/Users/tarokimura/Desktop/GitHub/HumanSelector/PySelector"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
