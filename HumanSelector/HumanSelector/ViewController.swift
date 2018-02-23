@@ -11,8 +11,8 @@ import CoreML
 import Vision
 import ImageIO
 
-
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
     @IBOutlet weak var cameraView: UIImageView!
     @IBOutlet weak var resultLabel: UILabel!
     
@@ -54,7 +54,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     lazy var classificationRequest_vgg: VNCoreMLRequest = {
         do {
             var model: VNCoreMLModel? = nil
-            model = try VNCoreMLModel(for: peopleornot2().model)
+            model = try VNCoreMLModel(for: peopleornot4().model)
             return VNCoreMLRequest(model: model!, completionHandler: self.handleClassification)
         } catch {
             fatalError("can't load Vision ML model: \(error)")
